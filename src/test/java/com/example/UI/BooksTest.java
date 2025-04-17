@@ -88,4 +88,7 @@ public class BooksTest extends BasePage {
         //assert title previous page
         bookPage.assertBookTitle(title);
     }
+
+    // NOTE: Test case for opening book detail is not implemented
+    // due to a known bug on the web (detail page cannot be opened)
 }

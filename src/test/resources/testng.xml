@@ -1,7 +1,7 @@
-<suite name="DummySuite">
-  <test name="DummyTest">
-    <classes>
-      <class name="com.example.UI.BooksTest"/>
-    </classes>
+<suite name="BookStoreSuite">
+  <test name="BookStoreSuite">
+    <packages>
+      <package name="com.example.UI"/>
+    </packages>
   </test>
 </suite>
