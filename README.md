@@ -12,7 +12,10 @@ This project is a simple demo of login page automation testing using:
 - ChromeDriver: Must be a compatible with your Google Chrome version. Check here to get ChromeDriver: https://googlechromelabs.github.io/chrome-for-testing/
 
 ## Setup Instructions
-### Step 1: Extract the .zip file
+### Step 1: Clone repository
+```
+https://github.com/debbybutar/bookstore
+```
 ### Step 2: Install a Compatible Version of ChromeDriver
 - Check your Google Chrome version, example:
 Version 131.0.6778.70
