@@ -1,0 +1,7 @@
+<suite name="DummySuite">
+  <test name="DummyTest">
+    <classes>
+      <class name="com.example.UI.BooksTest"/>
+    </classes>
+  </test>
+</suite>
