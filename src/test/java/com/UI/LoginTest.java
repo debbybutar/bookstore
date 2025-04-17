@@ -1,9 +1,9 @@
-package com.example.UI;
+package com.UI;
 
-import com.example.base.BasePage;
-import com.example.pageObject.LoginActionPage;
-import com.example.pageObject.ProfileActionPage;
-import com.example.pageObject.RegisterActionPage;
+import com.UI.base.BasePage;
+import com.UI.pageObject.LoginActionPage;
+import com.UI.pageObject.ProfileActionPage;
+import com.UI.pageObject.RegisterActionPage;
 
 import java.util.Random;
 import org.testng.annotations.*;

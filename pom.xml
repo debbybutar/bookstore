@@ -33,6 +33,23 @@
     <artifactId>slf4j-simple</artifactId>
     <version>2.0.9</version>
   </dependency>
+
+  <!-- Rest-Assured for API Testing -->
+  <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.1.1</version>
+      <scope>test</scope>
+  </dependency>
+
+  <!-- JSON Path for JSON assertions -->
+  <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-path</artifactId>
+      <version>5.1.1</version>
+      <scope>test</scope>
+  </dependency>
+
 </dependencies>
 <build>
     <plugins>

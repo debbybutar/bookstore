@@ -1,6 +1,7 @@
 # QA Assement Solution by Debby
 This project is a simple demo of login page automation testing using:
-- Selenium 
+- Selenium (UI Testing)
+- RestAssured (API Testing) 
 - Java
 - TestNG
 
@@ -25,7 +26,7 @@ to verify, go to your "/usr/local/bin" directory, and it must look like this
 - THIRD_PARTY_NOTICES.chromedriver
 - chromedriver
 ```
-### Step 2: Install Dependencies
+### Step 3: Install Dependencies
 - Open terminal, cd to the project's directory where it's located on your end
 ```
 cd Documents/Projects/selenium-test
@@ -34,8 +35,12 @@ cd Documents/Projects/selenium-test
 ```
 mvn clean install
 ```
-### Step 3: Run the Test Suite
+### Step 4: Run the Test Suite
 ```
 mvn test -DsuiteXmlFile=src/test/resources/testng.xml
 ```
+Note on testng.xml
+This file defines which test classes to run. Update it based on what you want to test:
+✅ To run UI tests: point "testng.xml" to classes inside "com.UI".
+✅ To run API tests: point "testng.xml" to classes inside "com.HTTP".
 

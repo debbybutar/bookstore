@@ -1,4 +1,4 @@
-package com.example.base;
+package com.UI.base;
 
 
 import org.openqa.selenium.WebDriver;

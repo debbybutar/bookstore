@@ -1,14 +1,14 @@
-package com.example.UI;
+package com.UI;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.example.base.BasePage;
-import com.example.pageObject.BooksActionPage;
-import com.example.pageObject.LoginActionPage;
-import com.example.pageObject.ProfileActionPage;
+import com.UI.base.BasePage;
+import com.UI.pageObject.BooksActionPage;
+import com.UI.pageObject.LoginActionPage;
+import com.UI.pageObject.ProfileActionPage;
 
 public class BooksTest extends BasePage {
     static String bookPageUrl = "https://demoqa.com/books";
@@ -89,6 +89,9 @@ public class BooksTest extends BasePage {
         bookPage.assertBookTitle(title);
     }
 
-    // NOTE: Test case for opening book detail is not implemented
-    // due to a known bug on the web (detail page cannot be opened)
+    /**
+     * NOTE:
+     * Test case for opening book detail is not implemented
+     * due to a known bug on the web (detail page cannot be opened)
+     */
 }
