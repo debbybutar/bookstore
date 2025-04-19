@@ -1,5 +1,5 @@
 # QA Assement Solution by Debby
-This project is a simple demo of login page automation testing using:
+This project is a simple demo using:
 - Selenium (UI Testing)
 - RestAssured (API Testing) 
 - Java
