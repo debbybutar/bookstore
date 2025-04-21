@@ -1,4 +1,4 @@
-package com.UI.pageObject;
+package com.web.pageObject;
 
 import java.time.Duration;
 

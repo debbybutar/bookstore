@@ -1,9 +1,9 @@
-package com.HTTP;
+package com.api;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.HTTP.model.GetBookStoreV1BooksObject;
+import com.api.model.GetBookStoreV1BooksObject;
 import com.google.gson.Gson;
 
 import io.restassured.RestAssured;

@@ -1,4 +1,4 @@
-package com.HTTP.model;
+package com.api.model;
 
 public class PostAccountV1AuthorizedObject {
     private String code;

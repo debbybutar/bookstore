@@ -1,4 +1,4 @@
-package com.UI.base;
+package com.web.base;
 
 
 import org.openqa.selenium.WebDriver;
@@ -32,7 +32,7 @@ public class BasePage {
     @AfterClass
     public void tearDown() {
         if (driver != null) {
-            // driver.quit();
+            driver.quit();
         }
     }
 }

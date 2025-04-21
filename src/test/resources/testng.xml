@@ -1,7 +1,7 @@
 <suite name="BookStoreSuite">
   <test name="BookStoreSuite">
     <packages>
-      <package name="com.HTTP"/>
+      <package name="com.web"/>
     </packages>
   </test>
 </suite>

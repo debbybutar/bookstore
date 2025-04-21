@@ -1,4 +1,4 @@
-package com.UI.pageObject;
+package com.web.pageObject;
 
 import java.time.Duration;
 
@@ -21,10 +21,8 @@ public class ProfileActionPage {
     //Object
     private By txtUserName = By.id("userName-value");
     private By btnLogout = By.id("submit");
-    private By tabLogin = By.id("item-1");
     private By tabBooks = By.xpath("//*[text()='Book Store']");
-    private By tabProfile = By.id("item-3");
-
+    
     // ACTION
     public void assertLoginSuccess(String expUserName, String expUrl) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));

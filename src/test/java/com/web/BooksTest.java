@@ -1,14 +1,14 @@
-package com.UI;
+package com.web;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.UI.base.BasePage;
-import com.UI.pageObject.BooksActionPage;
-import com.UI.pageObject.LoginActionPage;
-import com.UI.pageObject.ProfileActionPage;
+import com.web.base.BasePage;
+import com.web.pageObject.BooksActionPage;
+import com.web.pageObject.LoginActionPage;
+import com.web.pageObject.ProfileActionPage;
 
 public class BooksTest extends BasePage {
     static String bookPageUrl = "https://demoqa.com/books";

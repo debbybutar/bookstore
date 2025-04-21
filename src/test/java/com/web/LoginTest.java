@@ -1,12 +1,12 @@
-package com.UI;
-
-import com.UI.base.BasePage;
-import com.UI.pageObject.LoginActionPage;
-import com.UI.pageObject.ProfileActionPage;
-import com.UI.pageObject.RegisterActionPage;
+package com.web;
 
 import java.util.Random;
 import org.testng.annotations.*;
+
+import com.web.base.BasePage;
+import com.web.pageObject.LoginActionPage;
+import com.web.pageObject.ProfileActionPage;
+import com.web.pageObject.RegisterActionPage;
 
 /**
  * Test class for user registration and login functionality

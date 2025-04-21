@@ -1,4 +1,4 @@
-package com.HTTP.model;
+package com.api.model;
 
 import java.util.List;
 
