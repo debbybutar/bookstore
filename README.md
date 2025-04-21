@@ -44,6 +44,6 @@ mvn test -DsuiteXmlFile=src/test/resources/testng.xml
 ```
 Note on testng.xml
 This file defines which test classes to run. Update it based on what you want to test:
-✅ To run UI tests: point "testng.xml" to classes inside "com.UI".
-✅ To run API tests: point "testng.xml" to classes inside "com.HTTP".
+✅ To run UI tests: point "testng.xml" to classes inside "com.web".
+✅ To run API tests: point "testng.xml" to classes inside "com.api".
 
